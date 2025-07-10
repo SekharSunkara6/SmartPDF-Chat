@@ -10,7 +10,9 @@ st.title("Chat with your PDF")
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
 if uploaded_file:
-    pdf_path = os.path.join("data", uploaded_file.name)
+    save_dir = "data"
+    os.makedirs(save_dir, exist_ok=True)  # <-- Add this line
+    pdf_path = os.path.join(save_dir, uploaded_file.name)
     with open(pdf_path, "wb") as f:
         f.write(uploaded_file.read())
 
