@@ -11,8 +11,6 @@ SmartPDF-Chat is a Streamlit web app that lets you upload any PDF file and inter
 
 ## Demo
 
-[
-
 ## How it Works
 1. **Upload a PDF** via the web interface.
 2. **Ask questions** about the document.
@@ -23,7 +21,7 @@ SmartPDF-Chat is a Streamlit web app that lets you upload any PDF file and inter
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/SmartPDF-Chat.git
+git clone https://github.com/SekharSunkara6/SmartPDF-Chat.git
 cd SmartPDF-Chat
 ```
 
