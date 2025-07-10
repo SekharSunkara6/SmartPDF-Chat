@@ -6,7 +6,7 @@ from utils.llm_utils import ask_llm
 import numpy as np
 
 st.set_page_config("ChatwithPDFs")
-st.title("Chat with your PDF")
+st.title("Chat with your PDF  📄")
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
 if uploaded_file:
